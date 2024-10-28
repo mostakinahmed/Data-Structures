@@ -1,32 +1,22 @@
 #include <stdio.h>
-int main()
-{
-  int array[100], search, c, n;
-  printf("Enter number of elements in array\n");
-  scanf("%d", &n);
 
+int main() {
+    int arr[100] = {2, 4, 6, 8, 10}; 
+    int size = 5; 
 
-  printf("Enter %d integer(s)\n", n);
-  for (c = 0; c < n; c++)
-  scanf("%d", &array[c]);
+    int positionToDelete = 4; 
 
-
-  printf("Enter a number to search\n");
-  scanf("%d", &search);
-
-
-  for (c = 0; c < n; c++)
-  {
-    if (array[c] == search)
-    {
-      printf("%d is present at location %d.\n", search, c+1);
-      break;
-    }
     
-  }
-  if (c == n){
-    printf("%d isn't present in the array.\n", search);
-  }
+    for (int i = positionToDelete; i < size - 1; i++) {
+        arr[i] = arr[i + 1];
+    }
 
-  return 0;
+    size--;
+
+    // Print the updated array
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
 }
