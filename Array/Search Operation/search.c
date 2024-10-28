@@ -25,9 +25,7 @@ int main()
   }
 
   if (c==n)
-  {
+  
     printf("%d isn't present in array.\n", search);
-  }
-
   return 0;
 }
