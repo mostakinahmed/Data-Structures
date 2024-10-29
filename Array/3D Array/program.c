@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main() {
   
     // Create and Initialize the 3-dimensional array
