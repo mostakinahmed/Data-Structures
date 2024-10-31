@@ -1,6 +1,5 @@
-// C Program to implement queue using arrays
+
 #include <stdio.h>
-// Define the maximum size for the queue
 #define MAX_SIZE 100
 
 // Define a structure for the queue
@@ -71,7 +70,7 @@ void display(struct Queue *q) {
 }
 
 int main() {
-    // Initialize a queue
+    // Initialize a queue 
     struct Queue q;
     initializeQueue(&q);
 
