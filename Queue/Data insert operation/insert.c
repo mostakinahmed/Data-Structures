@@ -56,7 +56,7 @@ int dequeue(struct Queue *q) {
     printf("Deleted element: %d\n", data);
     return data;
 }
-
+//2nd day changed something
 // Function to display the elements of the queue
 void display(struct Queue *q) {
     if (isEmpty(q)) {
