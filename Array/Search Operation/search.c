@@ -23,6 +23,7 @@ int main()
       break;
     }
   }
+//add
 
   if (c==n)
   
