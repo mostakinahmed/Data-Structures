@@ -11,9 +11,10 @@ int main() {
           // Loop through the rows of each depth
         for (int j = 0; j < 3; ++j) {
           
-              // Loop through the columns of each row
+              // Loop through the columns of each row bellow
             for (int k = 0; k < 2; ++k)
                 printf("arr[%i][%i][%i] = %d   ", i, j, k,
+                
                        arr[i][j][k]);
               printf("\n");
         }

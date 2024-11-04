@@ -11,10 +11,10 @@ int main() {
         arr[i] = arr[i + 1];
     }
 
-// Update the size of the array
+// Decrement the size of the array to reflect the deletion
+
     size--;
 
-    // Print the updated array
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
     }
