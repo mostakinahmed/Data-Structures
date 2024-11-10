@@ -2,7 +2,7 @@
 #include <stdio.h>
 #define MAX_SIZE 100
 
-// Define a structure for the queue
+// Define a structure size
 struct Queue {
     int queue[MAX_SIZE];
     int front;
@@ -39,6 +39,7 @@ void enqueue(struct Queue *q, int data) {
     printf("Enqueued %d in queue\n", data);
 }
 
+//,,,,,,,,,
 // Function to remove an element from the queue
 int dequeue(struct Queue *q) {
     if (isEmpty(q)) {
@@ -56,7 +57,6 @@ int dequeue(struct Queue *q) {
     printf("Deleted element: %d\n", data);
     return data;
 }
-//2nd day changed something
 // Function to display the elements of the queue
 void display(struct Queue *q) {
     if (isEmpty(q)) {
