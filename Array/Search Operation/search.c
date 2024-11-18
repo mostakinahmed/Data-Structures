@@ -5,6 +5,7 @@ int main()
 {
   //intialize variables
   int search, c, n;
+  
   printf("Enter number of elements in array\n");
   scanf("%d", &n);
 
@@ -25,6 +26,7 @@ int main()
     }
   }
   //add file or data
+  //aaa adada
 
   if (c==n)
   
