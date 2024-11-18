@@ -2,6 +2,7 @@
 int main() {
   
     // Create and Initialize the 3-dimensional array
+    //create array
     int arr[2][3][2] = { { { 1, 1 }, { 2, 3 }, { 4, 5 } },
                          { { 6, 7 }, { 8, 9 }, { 10, 11 } } };
 
@@ -12,6 +13,9 @@ int main() {
         for (int j = 0; j < 3; ++j) {
           
               // Loop through the columns of each row bellow
+              //mostakin
+
+
             for (int k = 0; k < 2; ++k)
                 printf("arr[%i][%i][%i] = %d   ", i, j, k,
                 
@@ -20,5 +24,6 @@ int main() {
         }
       printf("\n\n");
     }
+    //aa
     return 0;
 }
