@@ -16,7 +16,7 @@ int main()
 
   printf("Enter a number to search\n");
   scanf("%d", &search);
-
+//Mostakin -PC
   for (c = 0; c < n; c++)
   {
     if (array[c] == search)
