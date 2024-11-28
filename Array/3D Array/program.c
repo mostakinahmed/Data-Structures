@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main() {
+
   
+  // Initialize the 3-dimensional array
+  printf("Mostakin");
     // Create and Initialize the 3-dimensional array
     //create array
     int arr[2][3][2] = { { { 1, 1 }, { 2, 3 }, { 4, 5 } },
