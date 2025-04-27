@@ -1,4 +1,4 @@
-// Linear Algorithms
+
 #include <stdio.h>
 
 int revArray(int data1[], int data2[], int size)
