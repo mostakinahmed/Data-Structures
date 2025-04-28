@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sumNum(int n, int sum)
+void recFunc(int n, int sum)
 {
     sum = sum + n;
     if (n == 1)
@@ -9,7 +9,7 @@ void sumNum(int n, int sum)
         return;
     }
     //call this func until found n=1
-    sumNum(n - 1, sum);
+    recFunc(n - 1, sum);
 }
 
 
@@ -19,7 +19,7 @@ int main()
     printf("Enter N: ");
     scanf("%d", &n);
 
-    sumNum(n, sum);
+    recFunc(n, sum);
 
 
     return 0;
