@@ -16,8 +16,7 @@ int main() {
         for (int j = 0; j < 3; ++j) {
           
               // Loop through the columns of each row bellow
-              //mostakin
-
+         
 
             for (int k = 0; k < 2; ++k)
                 printf("arr[%i][%i][%i] = %d   ", i, j, k,
