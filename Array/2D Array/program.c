@@ -2,7 +2,7 @@
 int main() {
   
     // Create and initialize an array with 3 rows
-      // and 2 columns
+    
     int arr[3][2] = { { 0, 1 }, { 2, 3 }, { 4, 5 } };
 
  //loop
