@@ -28,7 +28,7 @@ int main()
             display();
             break;
         case 0:
-            return 0;
+            return 0;  //0 for stop program
         default:
             printf("Choose correct option!");
             break;
