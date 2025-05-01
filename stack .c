@@ -83,7 +83,7 @@ void push()
 // pop for delete data one by one
 void pop()
 {
-    if (isEmpty())
+    if (isEmpty()) //if stack is blank
     {
         printf("UnderFlow\n");
     }
