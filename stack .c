@@ -1,4 +1,5 @@
 #include <stdio.h>
+//declare all function here
 void push();
 void pop();
 void display();
