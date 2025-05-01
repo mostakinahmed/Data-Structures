@@ -9,6 +9,7 @@ int top = -1;
 int main()
 {
     int opt;
+    
     while (1)
     {
         printf("\nOPTION LIST: \n");
