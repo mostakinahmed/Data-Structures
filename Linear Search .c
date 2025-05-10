@@ -1,6 +1,7 @@
 // Linear Algorithms
 #include <stdio.h>
 
+//create additional func to manage operation
 int linear_search(int data[], int s, int size)
 {
     for (int i = 0; i < size; i++)
