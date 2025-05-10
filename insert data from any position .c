@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 
+//additional func
 int insert_data(int arr[], int n, int value, int pos)
 
 {
