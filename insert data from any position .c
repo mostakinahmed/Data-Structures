@@ -23,6 +23,7 @@ int insert_data(int arr[], int n, int value, int pos)
     }
 }
 
+//main function
 int main()
 {
     int n, value, pos;
