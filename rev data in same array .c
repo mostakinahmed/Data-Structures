@@ -1,6 +1,7 @@
 // Linear Algorithms
 #include <stdio.h>
 
+//additional func
 int revArray(int data[], int size)
 {
     int temp;
