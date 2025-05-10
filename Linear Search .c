@@ -28,7 +28,7 @@ int main()
 
     printf("Searching Data: ");
     scanf("%d", &s);
-
+    //call func and pass argument
     int index = linear_search(data, s, size);
 
     printf("Index: %d ", index);
