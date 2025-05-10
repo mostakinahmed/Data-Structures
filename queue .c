@@ -9,6 +9,8 @@ int front = -1;
 void push();
 void pop();
 void display();
+
+//main function
 int main()
 {
     int opt;
