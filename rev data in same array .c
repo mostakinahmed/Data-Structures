@@ -21,6 +21,8 @@ int revArray(int data[], int size)
         printf("%d ", data[i]);
     }
 }
+
+//main function
 int main()
 {
     int size, s;
