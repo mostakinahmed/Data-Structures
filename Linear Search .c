@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 //create additional func to manage operation
+//linear
 int linear_search(int data[], int s, int size)
 {
     for (int i = 0; i < size; i++)
