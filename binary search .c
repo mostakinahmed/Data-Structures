@@ -27,6 +27,7 @@ int binary_search(int arr[], int n, int data)
         }
     }
 
+    //return for close
     return -1;
 }
 
