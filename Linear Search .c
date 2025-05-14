@@ -14,6 +14,8 @@ int linear_search(int data[], int s, int size)
     }
     return -1;
 }
+
+//main function
 int main()
 {
     int size, s;
