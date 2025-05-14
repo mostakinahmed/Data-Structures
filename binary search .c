@@ -8,6 +8,7 @@ int binary_search(int arr[], int n, int data)
     f = 0, l = n - 1;
 
 
+    //use while
     while (f <= l)
     {
             mid = (f + l) / 2;
