@@ -29,6 +29,7 @@ int main()
         scanf("%d", &data[i]);
     }
 
+    //show data
     printf("Searching Data: ");
     scanf("%d", &s);
     //call func and pass argument
