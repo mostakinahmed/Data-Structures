@@ -31,9 +31,6 @@ void dataInput()
             printf("memory allocation failled.\n");
         }
 
-        // input value
-        // printf("Enter ID[%d]: ", i + 1);
-        // scanf("%d", &id);
         printf("Enter Data[%d]: ", i + 1);
         scanf("%d", &value);
 
