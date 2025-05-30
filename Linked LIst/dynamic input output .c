@@ -9,9 +9,9 @@ struct node
 
 int main()
 {
-    struct node *head = NULL;     //for 1st node
+    struct node *head = NULL;     // for 1st node
     struct node *temp = NULL;     // for creating dynamic address
-    struct node *current = NULL;  //for storing update node
+    struct node *current = NULL;  // for storing update node
 
     // user input the size of linked list
     int n, value;
