@@ -6,7 +6,7 @@ void show();
 int inp_arr[SIZE];
 int Rear = - 1;
 int Front = - 1;
-//dgwdsaX
+//dgwdsaXadc
 main()
 {
     int ch;
