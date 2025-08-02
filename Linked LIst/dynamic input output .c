@@ -9,9 +9,9 @@ struct node
 
 int main()
 {
-    struct node *head = NULL;     // for 1st node
-    struct node *temp = NULL;     // for creating dynamic address
-    struct node *current = NULL;  // for storing update node
+    struct node *head = NULL;    // for 1st node
+    struct node *temp = NULL;    // for creating dynamic address
+    struct node *current = NULL; // for storing Current node
 
     // user input the size of linked list
     int n, value;
@@ -23,12 +23,6 @@ int main()
     {
         // memory address create
         temp = (struct node *)malloc(sizeof(struct node));
-
-        // cheak the memory address is created or not
-        if (temp == NULL)
-        {
-            printf("memory allocation failled.\n");
-        }
 
         // input value
         printf("Enter data[%d]: ", i + 1);
@@ -56,12 +50,10 @@ int main()
     // print all data
     struct node *ptr;
     ptr = head;
-
-    // printf all node
     while (ptr != NULL)
     {
         printf("%d ", ptr->data);
-        ptr = ptr->link; //update node to next node
+        ptr = ptr->link; // update node to next node
     }
     return 0;
 }
